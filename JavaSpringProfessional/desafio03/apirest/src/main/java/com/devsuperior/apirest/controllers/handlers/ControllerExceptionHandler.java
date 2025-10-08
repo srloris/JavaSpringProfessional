@@ -2,8 +2,8 @@ package com.devsuperior.apirest.controllers.handlers;
 
 import com.devsuperior.apirest.dto.CustomError;
 import com.devsuperior.apirest.dto.ValidationError;
-import com.devsuperior.apirest.services.Expections.DatabaseException;
-import com.devsuperior.apirest.services.Expections.ResourceNotFoundException;
+import com.devsuperior.apirest.services.exceptions.DatabaseException;
+import com.devsuperior.apirest.services.exceptions.ResourceNotFoundException;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,4 +1,4 @@
-package com.devsuperior.apirest.services.Expections;
+package com.devsuperior.apirest.services.exceptions;
 
 public class DatabaseException extends RuntimeException {
     public DatabaseException(String message) {

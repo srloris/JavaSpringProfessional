@@ -1,6 +1,5 @@
 package com.devsuperior.apirest.dto;
 
-import com.devsuperior.apirest.entities.Client;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.PastOrPresent;
 import lombok.AllArgsConstructor;
